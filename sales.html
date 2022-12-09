@@ -9,6 +9,33 @@
   <h1>Pat's Salmon Cookies</h1>
   <a href="index.html">Home</a>
   <table id="stores"></table>
+  <article>
+    <form id="storeForm">
+      <fieldset>
+        <legend>Add A New Store</legend>
+        <!-- OPTION 1: IS TO HAVE YOUR INPUT AND LABEL AS SIBLINGS
+            IMPORTANT YOU MUST HAVE A "FOR" ATTRIBUTE ON YOUR LABEL &
+            A "ID" ON YOUR INPUT - MUST BE THE SAME!!!!!
+        -->
+        <label for="storeName">Store Location: 
+          <input name="storeName" type="text" id="storeName" placeholder="ex. Miami">
+        </label>
+        <label for="minimumCustomers">Minimum Customers:
+          <input type="number" name="minimumCustomers">
+          <!-- event.target.age.value -->
+        </label>
+        <label for="maximumCustomers">Maximum Customers:
+          <input type="number" name="maximumCustomers">
+          <!-- event.target.age.value -->
+        </label>
+        <label for="averageCookiesBought">Average Cookies Bought:
+          <input type="number" name="averageCookiesBought">
+          <!-- event.target.age.value -->
+        </label>
+      </fieldset>
+      <button type="submit">Submit</button>
+    </form>
+  </article>
 </body>
 
 
