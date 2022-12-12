@@ -39,7 +39,7 @@ let row1 = document.createElement('tr');
 tableElem.appendChild(row1);
 
 let firstCell = document.createElement('th');
-firstCell.textContent = '';
+firstCell.textContent = 'Store';
 row1.appendChild(firstCell);
 
 for (let i = 0; i < hours.length; i++) {
@@ -49,7 +49,7 @@ for (let i = 0; i < hours.length; i++) {
 }
 
 let locationTotal = document.createElement('th');
-locationTotal.textContent = 'Daily Location Total';
+locationTotal.textContent = 'Daily Total';
 row1.appendChild(locationTotal);
 
 Store.prototype.render = function () {
