@@ -1,5 +1,5 @@
 header{
-  background-color: salmon;
+  
 }
 
 main{
@@ -14,8 +14,10 @@ body{
 nav{
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   height: 100px;
+  background-color: salmon;
+  margin-bottom: 20px;
 }
 
 nav img{
@@ -28,8 +30,6 @@ nav ul {
 }
 
 .heading{
-  display: flex;
-  align-items: center;
   font-size: 40px;
   font-family: 'Pacifico', cursive;
   color: antiquewhite;
@@ -44,7 +44,6 @@ a{
 
 #hero {
   padding-bottom: 5%;
-  padding-top: 5%;
   height: 450px;
   width: 960px;
 }
@@ -109,8 +108,9 @@ td, th{
 table, th, td {
   width: 20%;
   margin: auto;
-  border: 2px solid black;
+  border: 1.2px solid black;
   border-collapse: collapse;
-  background-color: salmon;
+  background-color: lightgray;
+  padding: 3px;
 }
 
